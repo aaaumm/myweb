@@ -1,7 +1,117 @@
-<html>
- <body>
-  <h1>Your Name Here</h1>
-  <h2>Your student code here</h2>
-  <h2>หิวข้าว ปล่อยหนูเถอะ</h2>
- </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านน้ำชาเขียวสดชื่น</title>
+  <style>
+    body {
+      font-family: 'Prompt', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0fff0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background-color: #d0f0c0;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+    }
+
+    h1 {
+      margin-top: 10px;
+      font-size: 2em;
+      color: #2e8b57;
+    }
+
+    .ads {
+      background-color: #fffacd;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.2em;
+      border-bottom: 2px solid #eee;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .product {
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .price {
+      font-size: 1.2em;
+      color: #228b22;
+      margin: 10px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #d0f0c0;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="โลโก้ร้านชาเขียว" class="logo">
+    <h1>ร้านน้ำชาเขียวสดชื่น</h1>
+  </header>
+
+  <div class="ads">
+    🌿 โปรโมชั่นพิเศษ! ซื้อครบ 3 ขวด แถมฟรี 1 ขวดทันที! 🌿
+  </div>
+
+  <section class="products">
+    <div class="product">
+      <img src="green-tea1.jpg" alt="ชาเขียวขวดที่ 1">
+      <div class="price">฿35</div>
+    </div>
+    <div class="product">
+      <img src="green-tea2.jpg" alt="ชาเขียวขวดที่ 2">
+      <div class="price">฿40</div>
+    </div>
+    <div class="product">
+      <img src="green-tea3.jpg" alt="ชาเขียวขวดที่ 3">
+      <div class="price">฿38</div>
+    </div>
+    <div class="product">
+      <img src="green-tea4.jpg" alt="ชาเขียวขวดที่ 4">
+      <div class="price">฿42</div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 ร้านน้ำชาเขียวสดชื่น | ติดต่อ: 088-xxx-xxxx
+  </footer>
+
+</body>
 </html>
